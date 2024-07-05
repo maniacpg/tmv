@@ -1,0 +1,10 @@
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\bin\Debug\DiemHoacTap.exe.config
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\bin\Debug\DiemHoacTap.exe
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\bin\Debug\DiemHoacTap.pdb
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\obj\Debug\DiemHoacTap.csproj.AssemblyReference.cache
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\obj\Debug\DiemHoacTap.Form1.resources
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\obj\Debug\DiemHoacTap.Properties.Resources.resources
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\obj\Debug\DiemHoacTap.csproj.GenerateResource.cache
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\obj\Debug\DiemHoacTap.csproj.CoreCompileInputs.cache
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\obj\Debug\DiemHoacTap.exe
+C:\Users\Maniac\Documents\HSK\TMV\DiemHoacTap\obj\Debug\DiemHoacTap.pdb

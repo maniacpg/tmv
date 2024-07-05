@@ -1,0 +1,11 @@
+C:\Users\Maniac\Documents\HSK\TMV\TMV\bin\Debug\TMV.exe.config
+C:\Users\Maniac\Documents\HSK\TMV\TMV\bin\Debug\TMV.exe
+C:\Users\Maniac\Documents\HSK\TMV\TMV\bin\Debug\TMV.pdb
+C:\Users\Maniac\Documents\HSK\TMV\TMV\obj\Debug\TMV.csproj.AssemblyReference.cache
+C:\Users\Maniac\Documents\HSK\TMV\TMV\obj\Debug\TMV.Properties.Resources.resources
+C:\Users\Maniac\Documents\HSK\TMV\TMV\obj\Debug\TMV.csproj.GenerateResource.cache
+C:\Users\Maniac\Documents\HSK\TMV\TMV\obj\Debug\TMV.csproj.CoreCompileInputs.cache
+C:\Users\Maniac\Documents\HSK\TMV\TMV\obj\Debug\TMV.exe
+C:\Users\Maniac\Documents\HSK\TMV\TMV\obj\Debug\TMV.pdb
+C:\Users\Maniac\Documents\HSK\TMV\TMV\obj\Debug\TMV.tmv.resources
+C:\Users\Maniac\Documents\HSK\TMV\TMV\obj\Debug\TMV.ChiTietHD.resources

@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|c:\\users\\maniac\\documents\\hsk\\tmv\\tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|c:\\users\\maniac\\documents\\hsk\\tmv\\tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|c:\\users\\maniac\\documents\\hsk\\tmv\\tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|C:\\Users\\Maniac\\Documents\\HSK\\TMV\\tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tmv.cs",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\tmv.cs",
+              "RelativeDocumentMoniker": "TMV\\tmv.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\tmv.cs",
+              "RelativeToolTip": "TMV\\tmv.cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAADwv9AAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:00:47.315Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietHD.cs",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs",
+              "RelativeDocumentMoniker": "TMV\\ChiTietHD.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs",
+              "RelativeToolTip": "TMV\\ChiTietHD.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAkwD4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T15:11:38.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChiTietHD.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs",
+              "RelativeDocumentMoniker": "TMV\\ChiTietHD.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs [Design]",
+              "RelativeToolTip": "TMV\\ChiTietHD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T14:29:39.306Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tmv.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\tmv.cs",
+              "RelativeDocumentMoniker": "TMV\\tmv.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\tmv.cs [Design]",
+              "RelativeToolTip": "TMV\\tmv.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T00:33:38.836Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
