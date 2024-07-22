@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace TMV
 {
-    public partial class ChiTietHD : Form
+    public partial class ChiTietHD : Form, iChitietHD
     {
         private string connectionString = "Data Source=MANIAC\\SQLEXPRESS;Initial Catalog=TMV;Integrated Security=True";
 
@@ -58,44 +58,40 @@ namespace TMV
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
-            if (e.RowIndex >= 0) 
+            DataGridViewRow row = dataGridView1.CurrentRow;
+
+            if (row != null && row.Cells["Ngay"].Value != null && row.Cells["DichVu"].Value != null)
             {
-                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
-
-                
-                if (row != null && row.Cells["Ngay"].Value != null && row.Cells["DichVu"].Value != null)
+                if (this.Owner is iChitietHD receiver)
                 {
-                    string ngayString = row.Cells["Ngay"].Value.ToString();
-                    string dichVu = row.Cells["DichVu"].Value.ToString();
-
-                    
-                    if (this.Owner != null && this.Owner is tmv)
+                    DateTime ngay;
+                    if (DateTime.TryParse(row.Cells["Ngay"].Value.ToString(), out ngay))
                     {
-                        ((tmv)this.Owner).NhanDuLieuTuChiTietHD(ngayString, dichVu);
-
-                        
+                        string dichVu = row.Cells["DichVu"].Value.ToString();
+                        receiver.NhanDuLieuTuChiTietHD(ngay, dichVu);
                         this.Close();
                     }
                     else
                     {
-                        MessageBox.Show("Form chính (tmv) không hợp lệ.");
+                        MessageBox.Show("Ngày không hợp lệ.");
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Dòng không có dữ liệu hợp lệ.");
+                    MessageBox.Show("Form chính không hỗ trợ nhận dữ liệu.");
                 }
             }
             else
             {
-                MessageBox.Show("Dòng không hợp lệ.");
+                MessageBox.Show("Dòng không có dữ liệu hợp lệ.");
             }
         }
 
-
-
-
+        public void NhanDuLieuTuChiTietHD(DateTime ngay, string dichVu)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

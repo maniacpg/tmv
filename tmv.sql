@@ -16,16 +16,18 @@ IDDV varchar(10) primary key NOT NULL,
 TenDV nvarchar(100)
 )
 
-create table tblHopDong
+CREATE TABLE tblHopDong
 (
-    Ngay datetime,
-    MaBN varchar(10),
-    DichVu varchar(100),
-    foreign key (MaBN) references tblBenhNhan(MaBN)    
-)
+    Ngay DATE,
+    MaBN VARCHAR(10),
+    DichVu NVARCHAR(100) COLLATE Vietnamese_CI_AS,
+    FOREIGN KEY (MaBN) REFERENCES tblBenhNhan(MaBN)    
+);
 
 ALTER TABLE tblHopDong
 ALTER COLUMN Ngay DATE;
+
+
 
 
 CREATE PROCEDURE sp_InsertBenhNhan
@@ -36,25 +38,28 @@ BEGIN
     SET NOCOUNT ON;
 
     INSERT INTO tblBenhNhan (MaBN, TenBN)
-    VALUES (@MaBN, @TenBN);
+    VALUES (@MaBN, @TenBN COLLATE Vietnamese_CI_AS);
 
     SELECT @@ROWCOUNT AS 'Rows Affected';
 END
 
 CREATE PROCEDURE sp_InsertHopDong
-    @Ngay datetime,
-    @MaBN varchar(10),
-    @DichVu varchar(100)
+    @Ngay DATE,
+    @MaBN VARCHAR(10),
+    @DichVu NVARCHAR(100)
 AS
 BEGIN
     SET NOCOUNT ON;
 
     INSERT INTO tblHopDong (Ngay, MaBN, DichVu)
-    VALUES (@Ngay, @MaBN, @DichVu);
+    VALUES (@Ngay, @MaBN COLLATE Vietnamese_CI_AS, @DichVu COLLATE Vietnamese_CI_AS);
 
     SELECT @@ROWCOUNT AS 'Rows Affected';
-END
+END;
 
+select * from tblHopDong
+
+delete tblHopDong
 CREATE PROCEDURE sp_GetHopDong
 AS
 BEGIN
@@ -64,19 +69,67 @@ BEGIN
     FROM tblHopDong
     ORDER BY Ngay ASC;
 END
-exec sp_GetHopDong
 
 CREATE PROCEDURE sp_GetHopDongByMaBN
-    @MaBN varchar(10)
+    @MaBN varchar(10) 
 AS
 BEGIN
     SET NOCOUNT ON;
 
     SELECT Ngay, MaBN, DichVu
     FROM tblHopDong
-    WHERE MaBN = @MaBN
+    WHERE MaBN = @MaBN COLLATE Vietnamese_CI_AS
     ORDER BY Ngay ASC;
 END
+
+Alter proc Select_ThongTinKhamTheoNgay
+as 
+begin
+	select h.Ngay, b.MaBN, b.TenBN, h.DichVu, COUNT(b.MaBN) AS SoLuongBenhNhan
+	from tblBenhNhan as b, tblHopDong as h 
+	where h.MaBN = b.MaBN 
+	GROUP BY 
+        h.Ngay
+	order by h.Ngay asc
+end
+go
+
+alter PROCEDURE Select_ThongTinKhamTheoNgay
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Sử dụng CTE để đếm số lượng bệnh nhân theo ngày
+    WITH BenhNhanTheoNgay AS (
+        SELECT 
+            Ngay,
+            COUNT(DISTINCT MaBN) AS SoLuongBenhNhan
+        FROM 
+            tblHopDong
+        GROUP BY 
+            Ngay
+    )
+
+    -- Truy vấn kết hợp thông tin chi tiết
+    SELECT 
+        h.Ngay,
+        b.MaBN,
+        b.TenBN,
+        h.DichVu,
+        bn.SoLuongBenhNhan
+    FROM 
+        tblHopDong AS h
+    INNER JOIN 
+        tblBenhNhan AS b ON h.MaBN = b.MaBN
+    INNER JOIN 
+        BenhNhanTheoNgay AS bn ON h.Ngay = bn.Ngay
+    ORDER BY 
+        h.Ngay ASC;
+END
+GO
+
+exec Select_ThongTinKhamTheoNgay
+delete tblHopDong
 
 
 INSERT INTO tblBenhNhan (MaBN, TenBN) VALUES ('BN001', N'Nguyễn Văn An');

@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace TMV
 {
-    public partial class tmv : Form
+    public partial class tmv : Form, iChitietHD
     {
         private string connectionString = "Data Source=MANIAC\\SQLEXPRESS;Initial Catalog=TMV;Integrated Security=True";
 
@@ -586,6 +586,9 @@ namespace TMV
             ValidateInput();
         }
 
+
+
+
         private void btnChiTiet_Click(object sender, EventArgs e)
         {
             string maBenhNhan = cbMaBN.Text.Trim();
@@ -603,26 +606,65 @@ namespace TMV
             {
                 MessageBox.Show("Không có bản ghi nào.");
             }
-        }
+        }           
 
-        public void NhanDuLieuTuChiTietHD(string ngay, string dichVu)
-        {
+        public void NhanDuLieuTuChiTietHD(DateTime ngay, string dichVu)
+        {            
             
-            DateTime ngayDateTime;
-            if (DateTime.TryParse(ngay, out ngayDateTime))
-            {
-                txbNgay.Text = ngayDateTime.Day.ToString();
-                txbThang.Text = ngayDateTime.Month.ToString();
-                txbNam.Text = ngayDateTime.Year.ToString();
-            }
-            else
-            {
-                MessageBox.Show("Ngày không hợp lệ.");
-            }
-
+            txbNgay.Text = ngay.Day.ToString();
+            txbThang.Text = ngay.Month.ToString();
+            txbNam.Text = ngay.Year.ToString();
             
             lsbDSDV.Items.Clear();
             lsbDSDV.Items.Add(dichVu);
+
+            string ketQua = $"Ngày: {ngay.ToShortDateString()}, Dịch vụ: {dichVu}";
+            lsbKetQua.Items.Add(ketQua);
+        }
+
+        private void btnDSKBTN_Click(object sender, EventArgs e)
+        {
+            fInBC f = new fInBC();
+            f.Show();
+            f.ShowReport("dskbTime.rpt", "Select_ThongTinKhamTheoNgay", null);
+            
+        }
+
+        private void btnIn1Nguoi_Click(object sender, EventArgs e)
+        {
+            if(cbMaBN.Text.Length>0)
+            {
+                string maBenhNhan = cbMaBN.Text.Trim();
+                if (KiemtraHDBN(maBenhNhan))
+                {
+                    string reportFilter = "NOT(ISNULL({Select_ThongTinKhamTheoNgay.MaBN}))";
+                    if (!string.IsNullOrEmpty(cbMaBN.Text))
+                    {
+                        reportFilter += string.Format(" AND {0} LIKE '*{1}*'", "{Select_ThongTinKhamTheoNgay.MaBN}", cbMaBN.Text);
+                    }
+                    if (!string.IsNullOrEmpty(tbTenBN.Text))
+                    {
+                        reportFilter += string.Format(" AND {0} LIKE '*{1}*'", "{Select_ThongTinKhamTheoNgay.TenBN}", tbTenBN.Text);
+                    }
+                    fInBC f = new fInBC();
+                    f.Show();
+                    f.ShowReport("sokhambenh.rpt", "Select_ThongTinKhamTheoNgay", reportFilter);
+                }
+                else
+                {
+                    MessageBox.Show("Bệnh nhân chưa sử dụng dịch vụ nào!");
+                }
+                
+            }
+            
+            else
+            {
+                MessageBox.Show("Vui lòng chọn bệnh nhân trước khi in Sổ khám bệnh!");
+            }
+            //liệt kê các trường dữ liệu khác
+
+
+            
         }
     }
 }

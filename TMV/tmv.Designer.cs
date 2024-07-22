@@ -54,6 +54,8 @@
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
             this.btnChiTiet = new System.Windows.Forms.Button();
+            this.btnDSKBTN = new System.Windows.Forms.Button();
+            this.btnIn1Nguoi = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
@@ -63,7 +65,7 @@
             // buttonChon
             // 
             this.buttonChon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonChon.Location = new System.Drawing.Point(189, 373);
+            this.buttonChon.Location = new System.Drawing.Point(78, 373);
             this.buttonChon.Name = "buttonChon";
             this.buttonChon.Size = new System.Drawing.Size(125, 39);
             this.buttonChon.TabIndex = 6;
@@ -74,7 +76,7 @@
             // buttonTieptuc
             // 
             this.buttonTieptuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonTieptuc.Location = new System.Drawing.Point(428, 373);
+            this.buttonTieptuc.Location = new System.Drawing.Point(251, 373);
             this.buttonTieptuc.Name = "buttonTieptuc";
             this.buttonTieptuc.Size = new System.Drawing.Size(125, 39);
             this.buttonTieptuc.TabIndex = 7;
@@ -85,7 +87,7 @@
             // buttonThoat
             // 
             this.buttonThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonThoat.Location = new System.Drawing.Point(659, 373);
+            this.buttonThoat.Location = new System.Drawing.Point(409, 373);
             this.buttonThoat.Name = "buttonThoat";
             this.buttonThoat.Size = new System.Drawing.Size(125, 39);
             this.buttonThoat.TabIndex = 8;
@@ -306,11 +308,33 @@
             this.btnChiTiet.UseVisualStyleBackColor = false;
             this.btnChiTiet.Click += new System.EventHandler(this.btnChiTiet_Click);
             // 
+            // btnDSKBTN
+            // 
+            this.btnDSKBTN.Location = new System.Drawing.Point(566, 373);
+            this.btnDSKBTN.Name = "btnDSKBTN";
+            this.btnDSKBTN.Size = new System.Drawing.Size(110, 39);
+            this.btnDSKBTN.TabIndex = 21;
+            this.btnDSKBTN.Text = "In DSKBTN";
+            this.btnDSKBTN.UseVisualStyleBackColor = true;
+            this.btnDSKBTN.Click += new System.EventHandler(this.btnDSKBTN_Click);
+            // 
+            // btnIn1Nguoi
+            // 
+            this.btnIn1Nguoi.Location = new System.Drawing.Point(703, 373);
+            this.btnIn1Nguoi.Name = "btnIn1Nguoi";
+            this.btnIn1Nguoi.Size = new System.Drawing.Size(107, 39);
+            this.btnIn1Nguoi.TabIndex = 22;
+            this.btnIn1Nguoi.Text = "In Sổ KB";
+            this.btnIn1Nguoi.UseVisualStyleBackColor = true;
+            this.btnIn1Nguoi.Click += new System.EventHandler(this.btnIn1Nguoi_Click);
+            // 
             // tmv
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(999, 642);
+            this.Controls.Add(this.btnIn1Nguoi);
+            this.Controls.Add(this.btnDSKBTN);
             this.Controls.Add(this.btnChiTiet);
             this.Controls.Add(this.lsbKetQua);
             this.Controls.Add(this.groupBox1);
@@ -358,6 +382,8 @@
         private System.Windows.Forms.ErrorProvider errorProvider2;
         private System.Windows.Forms.ErrorProvider errorProvider3;
         private System.Windows.Forms.Button btnChiTiet;
+        private System.Windows.Forms.Button btnDSKBTN;
+        private System.Windows.Forms.Button btnIn1Nguoi;
     }
 }
 

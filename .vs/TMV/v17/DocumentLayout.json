@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|c:\\users\\maniac\\documents\\hsk\\tmv\\tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|c:\\users\\maniac\\documents\\hsk\\tmv\\tmv\\baocao\\dskbtime.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\baocao\\dskbtime.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|c:\\users\\maniac\\documents\\hsk\\tmv\\tmv\\baocao\\sokhambenh.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\baocao\\sokhambenh.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|C:\\Users\\Maniac\\Documents\\HSK\\TMV\\tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|c:\\users\\maniac\\documents\\hsk\\tmv\\tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|c:\\users\\maniac\\documents\\hsk\\tmv\\tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|c:\\users\\maniac\\documents\\hsk\\tmv\\tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|C:\\Users\\Maniac\\Documents\\HSK\\TMV\\tmv\\finbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\finbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|C:\\Users\\Maniac\\Documents\\HSK\\TMV\\tmv\\finbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\finbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|C:\\Users\\Maniac\\Documents\\HSK\\TMV\\tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|C:\\Users\\Maniac\\Documents\\HSK\\TMV\\tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\tmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|C:\\Users\\Maniac\\Documents\\HSK\\TMV\\tmv\\ichitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\ichitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|C:\\Users\\Maniac\\Documents\\HSK\\TMV\\tmv\\chitiethd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\chitiethd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|C:\\Users\\Maniac\\Documents\\HSK\\TMV\\tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11B1C9DF-6CE2-4908-895B-80C60663007E}|TMV\\TMV.csproj|solutionrelative:tmv\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,22 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "tmv.cs",
-              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\tmv.cs",
-              "RelativeDocumentMoniker": "TMV\\tmv.cs",
-              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\tmv.cs",
-              "RelativeToolTip": "TMV\\tmv.cs",
-              "ViewState": "AQIAAM0AAAAAAAAAAADwv9AAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T07:00:47.315Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -56,28 +66,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChiTietHD.cs",
-              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs",
-              "RelativeDocumentMoniker": "TMV\\ChiTietHD.cs",
-              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs",
-              "RelativeToolTip": "TMV\\ChiTietHD.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAkwD4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T15:11:38.387Z",
+              "DocumentIndex": 0,
+              "Title": "dskbTime.rpt",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\BaoCao\\dskbTime.rpt",
+              "RelativeDocumentMoniker": "TMV\\BaoCao\\dskbTime.rpt",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\BaoCao\\dskbTime.rpt",
+              "RelativeToolTip": "TMV\\BaoCao\\dskbTime.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPdSURBVDhPrZRbaBxVGMf/c9nd2Vuyu9nN5m7aStI2oWtSCBgtWgj10oe2D2Le1FRRBBEk\u002BCJo8amIIL5U0BfFF6mFalOs0CdrWqhJNkmTUEyyzaXuJpvsdXZ2dnauntmdbJvEvvkb/pxvZr7vP\u002Bec\u002BTj4XzEMg7LCCj39z7/y6vC7n1m3T2RtaWHi8ncXP7Bud8FaYwVPnS94pPeZgcihIBiGBkWuvfyzXcC0P9SsKrJ08\u002Br3XxbymaT1qgJjjRXaOrsiz518\u002BdyJSCv8Xid8HgcCXo7Ej1QQZciGrf7EswN9W\u002BlMLpva3hCLfNayAG2NNcw50RSFYklBtiAhs0diWYXXZcfxo23O4fMfXewbHHrNWx8IV6v/w7AGcSa\u002B\u002B0VebeVEXBuPgSezPT383qdDZ98YrRY9YYYmDKlm6KpkWsLvxhg2qTjaw14M9rRg4EgTBntbcKCtwel2OzmrbLchRUxoYmBe5kjTNAS6gHvGLK4LV/FD/lssUBMIB9xosuThbOSjj2z2GJr7txNTyGgpLGl/Y5G6j/viPH4VruAX4WfMKzOVD5qzN/Meh2ZcjRxRHZGPste7dIOGphuQjCKiUhTjpXFojAyH7oCmabjJ38Cl9FfIKCkYlLbPkG0\u002Bc/lFQI\u002BQOEg1cpGlDYP8TQVjxetYLi9DhYZcKYdCloeqqSQViKYn8f7GCL4\u002BdolsjrPqZMF\u002B8\u002BExV1lRfGleaY5tlP0zqzIu/JQC6\u002BtCOryCXDgKw6OD1hhIs2WU4xI6mjsx\u002BvrHaORCyFCCZVWFVgtri7qw/mebt3Br4BC73NPBIZGWEVsM4uFsL9KrByGyAkkkWxFX0cf24/zRt/FC6CQ8Ns\u002B\u002BJTM5tX47OrOwSp6vdbb6Q4c73Kc4O4tYUkN6MwRKDsLuT0HMJ/CU1I43B0bw1tBIxcjUZlpAdGpqYvavWzcqhrH524jN39FFxVZk65qebm1uOHeqP4BkXsc2r0NM\u002BWE8OAy7L4rPX/oEZyJnwZI22WmvZKaE6ejkxPTdqmGtbebu/oa529dgt7FwO\u002B3obnGgI2iDi2PgdzRg9MAFdLl6YZBcilSZKzXbj5whtVYzqRlKRR6lYp4kUzBbJ1cCNFJZ72Hhd9sRtIXB6nboul5b7uPaoWZoompAtghMLEuIZwxyhDFoD9LoDqvI8SISKQFxcnytb/E1lWS1cpjssOs8pGiGVw37yty61Ej\u002BC9cZouBlVTHoKKTWE7liOsvL0EpaucSbK6\u002BR2kqsWeFuw5YAN336eOCLsqK\u002BIxSl7rwgI54UZhaWtn9cXElOKqr28N6dMX7qjyuKVbIH4F/CwpxOdjf1iQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-07-22T12:46:28.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ChiTietHD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs",
-              "RelativeDocumentMoniker": "TMV\\ChiTietHD.cs",
-              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs [Design]",
-              "RelativeToolTip": "TMV\\ChiTietHD.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T14:29:39.306Z",
-              "EditorCaption": " [Design]"
+              "Title": "sokhambenh.rpt",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\BaoCao\\sokhambenh.rpt",
+              "RelativeDocumentMoniker": "TMV\\BaoCao\\sokhambenh.rpt",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\BaoCao\\sokhambenh.rpt",
+              "RelativeToolTip": "TMV\\BaoCao\\sokhambenh.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPdSURBVDhPrZRbaBxVGMf/c9nd2Vuyu9nN5m7aStI2oWtSCBgtWgj10oe2D2Le1FRRBBEk\u002BCJo8amIIL5U0BfFF6mFalOs0CdrWqhJNkmTUEyyzaXuJpvsdXZ2dnauntmdbJvEvvkb/pxvZr7vP\u002Bec\u002BTj4XzEMg7LCCj39z7/y6vC7n1m3T2RtaWHi8ncXP7Bud8FaYwVPnS94pPeZgcihIBiGBkWuvfyzXcC0P9SsKrJ08\u002Br3XxbymaT1qgJjjRXaOrsiz518\u002BdyJSCv8Xid8HgcCXo7Ej1QQZciGrf7EswN9W\u002BlMLpva3hCLfNayAG2NNcw50RSFYklBtiAhs0diWYXXZcfxo23O4fMfXewbHHrNWx8IV6v/w7AGcSa\u002B\u002B0VebeVEXBuPgSezPT383qdDZ98YrRY9YYYmDKlm6KpkWsLvxhg2qTjaw14M9rRg4EgTBntbcKCtwel2OzmrbLchRUxoYmBe5kjTNAS6gHvGLK4LV/FD/lssUBMIB9xosuThbOSjj2z2GJr7txNTyGgpLGl/Y5G6j/viPH4VruAX4WfMKzOVD5qzN/Meh2ZcjRxRHZGPste7dIOGphuQjCKiUhTjpXFojAyH7oCmabjJ38Cl9FfIKCkYlLbPkG0\u002Bc/lFQI\u002BQOEg1cpGlDYP8TQVjxetYLi9DhYZcKYdCloeqqSQViKYn8f7GCL4\u002BdolsjrPqZMF\u002B8\u002BExV1lRfGleaY5tlP0zqzIu/JQC6\u002BtCOryCXDgKw6OD1hhIs2WU4xI6mjsx\u002BvrHaORCyFCCZVWFVgtri7qw/mebt3Br4BC73NPBIZGWEVsM4uFsL9KrByGyAkkkWxFX0cf24/zRt/FC6CQ8Ns\u002B\u002BJTM5tX47OrOwSp6vdbb6Q4c73Kc4O4tYUkN6MwRKDsLuT0HMJ/CU1I43B0bw1tBIxcjUZlpAdGpqYvavWzcqhrH524jN39FFxVZk65qebm1uOHeqP4BkXsc2r0NM\u002BWE8OAy7L4rPX/oEZyJnwZI22WmvZKaE6ejkxPTdqmGtbebu/oa529dgt7FwO\u002B3obnGgI2iDi2PgdzRg9MAFdLl6YZBcilSZKzXbj5whtVYzqRlKRR6lYp4kUzBbJ1cCNFJZ72Hhd9sRtIXB6nboul5b7uPaoWZoompAtghMLEuIZwxyhDFoD9LoDqvI8SISKQFxcnytb/E1lWS1cpjssOs8pGiGVw37yty61Ej\u002BC9cZouBlVTHoKKTWE7liOsvL0EpaucSbK6\u002BR2kqsWeFuw5YAN336eOCLsqK\u002BIxSl7rwgI54UZhaWtn9cXElOKqr28N6dMX7qjyuKVbIH4F/CwpxOdjf1iQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-07-22T12:35:08.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,8 +97,91 @@
               "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\tmv.cs [Design]",
               "RelativeToolTip": "TMV\\tmv.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T00:33:38.836Z",
+              "WhenOpened": "2024-07-22T12:21:59.02Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tmv.cs",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\tmv.cs",
+              "RelativeDocumentMoniker": "TMV\\tmv.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\tmv.cs",
+              "RelativeToolTip": "TMV\\tmv.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAIwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:00:47.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fInBC.cs",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\fInBC.cs",
+              "RelativeDocumentMoniker": "TMV\\fInBC.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\fInBC.cs",
+              "RelativeToolTip": "TMV\\fInBC.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCgAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:56:38.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fInBC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\fInBC.cs",
+              "RelativeDocumentMoniker": "TMV\\fInBC.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\fInBC.cs [Design]",
+              "RelativeToolTip": "TMV\\fInBC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:47:19.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChiTietHD.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.Designer.cs",
+              "RelativeDocumentMoniker": "TMV\\ChiTietHD.Designer.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.Designer.cs",
+              "RelativeToolTip": "TMV\\ChiTietHD.Designer.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAwEYAAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:29:58.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChiTietHD.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs",
+              "RelativeDocumentMoniker": "TMV\\ChiTietHD.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs [Design]",
+              "RelativeToolTip": "TMV\\ChiTietHD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T14:29:39.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChiTietHD.cs",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs",
+              "RelativeDocumentMoniker": "TMV\\ChiTietHD.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\ChiTietHD.cs",
+              "RelativeToolTip": "TMV\\ChiTietHD.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwB0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T15:11:38.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "iChitietHD.cs",
+              "DocumentMoniker": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\iChitietHD.cs",
+              "RelativeDocumentMoniker": "TMV\\iChitietHD.cs",
+              "ToolTip": "C:\\Users\\Maniac\\Documents\\HSK\\TMV\\TMV\\iChitietHD.cs",
+              "RelativeToolTip": "TMV\\iChitietHD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:24:55.377Z"
             }
           ]
         }
